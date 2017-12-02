@@ -3,7 +3,7 @@
 	errmsg: .asciiz "NaN"    #error message for invalid hexadecimal
 	too_large_msg: .asciiz "too large"
 	output_line: .asciiz "\n"			  #stores new line for output
-	input: .space 1001				#space for characters (1000 + 1)
+	input: .space 1001				#space for a 1000 characters, last one being null
 	
 	
 .text
